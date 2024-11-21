@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Chirstmas form</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 <header>
@@ -11,7 +12,7 @@
 </header>
 <form>
     <fieldset id="infoYou">
-        <h3>Some information about you</h3>
+        <h3 id="first">Some information about you</h3>
         <label for="name">Who are you?</label>
         <input type="text" id="name">
         <label for="email">Where shall we mail your approval to?</label>
@@ -27,7 +28,7 @@
         </select>
     </fieldset>
     <fieldset id="pleaseSanta">
-        <h3>Something to please Santa</h3>
+        <h3 id="second">Something to please Santa</h3>
         <label>Which do you like better: the elves or the reindeer?</label>
         <input type="checkbox" id="elves">
         <label for="elves">Elves</label>
@@ -49,8 +50,8 @@
         <label for="tree">How many x-mas trees do you own?</label>
         <input type="number" id="tree" min="0">
     </fieldset>
-    <fieldset>
-        <h3>At last... your request</h3>
+    <fieldset id="question">
+        <h3 id="third">At last... your request</h3>
         <label for="opm">So, what will it be?</label>
         <textarea id="opm"></textarea>
     </fieldset>

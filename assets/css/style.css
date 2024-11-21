@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Pacifico&family=Snowburst+One&display=swap');
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-image: url("../img/bg-stars.gif");
+}
+h1{
+    font-family: Pacifico, "Palatino Linotype", Georgia, serif;
+    color: #bd0008;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100px;
+}
+h3 #first{
+    font-family: Pacifico, "Palatino Linotype", Georgia, serif;
+    color: #000000;
+}
+
+h3 #second{
+    font-family: Pacifico, "Palatino Linotype", Georgia, serif;
+    color:#f39809;
+}
+
+h3 #third{
+    font-family: Pacifico, "Palatino Linotype", Georgia, serif;
+    color: #ffffff;
+}
