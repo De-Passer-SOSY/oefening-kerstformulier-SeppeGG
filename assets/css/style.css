@@ -21,17 +21,49 @@ header{
 img{
     width: 100px;
 }
-h3 #first{
+#first{
     font-family: Pacifico, "Palatino Linotype", Georgia, serif;
     color: #000000;
 }
 
-h3 #second{
+#second{
     font-family: Pacifico, "Palatino Linotype", Georgia, serif;
     color:#f39809;
 }
 
-h3 #third{
+#third{
     font-family: Pacifico, "Palatino Linotype", Georgia, serif;
     color: #ffffff;
+}
+
+#infoYou{
+    background-color: #d3d68c;
+}
+#pleaseSanta{
+    background-color: #542f2c;
+}
+#question{
+    background-color: #b20000;
+}
+
+input[type=text],input[type=email],input[type=number], select{
+    margin: 5px;
+    display: block;
+    border-radius: 5px;
+    border-color: #d3d68c;
+}
+input[type=text],input[type=email],input[type=number], textarea{
+    width: 100%;
+}
+
+input[type=checkbox],input[type=radio], label{
+    display: flex;
+
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+select{
+    color:#bd0008;
 }
