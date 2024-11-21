@@ -9,5 +9,52 @@
     <img src="assets/img/xmas-tree.gif" alt="xmas-tree">
     <h1>Make-a-wishlist for Santa!</h1>
 </header>
+<form>
+    <fieldset id="infoYou">
+        <h3>Some information about you</h3>
+        <label for="name">Who are you?</label>
+        <input type="text" id="name">
+        <label for="email">Where shall we mail your approval to?</label>
+        <input type="email" id="email" placeholder="someone@someone.com">
+        <label for="phone">Can E.T. phone home?</label>
+        <input type="number" id="phone">
+        <label for="home">Where are you from?</label>
+        <select id="home">
+            <option>Earth</option>
+            <option>Mars</option>
+            <option>Jupiter</option>
+            <option>Venus</option>
+        </select>
+    </fieldset>
+    <fieldset id="pleaseSanta">
+        <h3>Something to please Santa</h3>
+        <label>Which do you like better: the elves or the reindeer?</label>
+        <input type="checkbox" id="elves">
+        <label for="elves">Elves</label>
+        <input type="checkbox" id="reindeer">
+        <label for="reindeer">Reindeer</label>
+        <label>What do you usually decorate your x-mas tree with?</label>
+        <input type="checkbox" id="balls">
+        <label for="balls">Balls</label>
+        <input type="checkbox" id="lights">
+        <label for="lights">Lights</label>
+        <input type="checkbox" id="snow">
+        <label for="snow">Snow</label>
+        <input type="checkbox" id="littleMen">
+        <label for="littleMen">Little men</label>
+        <input type="checkbox" id="firework">
+        <label for="firework">Fireworks!</label>
+        <label for="movie">What is your favourite x-mas movie?</label>
+        <input type="text" id="movie">
+        <label for="tree">How many x-mas trees do you own?</label>
+        <input type="number" id="tree" min="0">
+    </fieldset>
+    <fieldset>
+        <h3>At last... your request</h3>
+        <label for="opm">So, what will it be?</label>
+        <textarea id="opm"></textarea>
+    </fieldset>
+    <input type="submit" value="send to santa!">
+</form>
 </body>
 </html>
