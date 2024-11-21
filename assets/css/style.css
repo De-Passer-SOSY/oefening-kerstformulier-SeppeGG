@@ -74,6 +74,7 @@ input[type=text],input[type=email],input[type=number], select{
 }
 input[type=text],input[type=email],input[type=number], select, textarea{
     width: 95%;
+    margin-bottom: 20px;
 }
 
 input[type=checkbox], input[type=radio]{
@@ -89,8 +90,7 @@ input[type=checkbox], input[type=radio]{
 input[type=submit]{
     background-color: #84881a;
     color: #ffffff;
-    display: flex;
-    justify-content: flex-end;
+    margin-left: 1095px;
 }
 select{
     color:#bd0008;
